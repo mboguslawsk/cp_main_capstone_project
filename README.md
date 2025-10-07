@@ -31,3 +31,21 @@ This project is a cloud-deployed version of the [Spring PetClinic Sample Applica
 | Artifact Storage | Google Container Registry |
 | Persistent Database | Cloud SQL (GCP) |
 | Scripts | Python / Bash |
+
+## Prerequesites
+
+FOr terraform infra:
+
+- One cloud bucket was created in GCP for tfstate file manually.
+- One service account was created manually, for managing GHA. Created JSON_KEY for that. And added this JSON to the GitHub Actions Repository secrets GCP_JSON_SA_KEY.
+- Created enviornment (production) before for approve functionality.
+
+For Spring petclinic app:
+
+- Created enviornment (production) before for approve jobs in pipeline.
+
+## First tests
+
+After writing infrastructure configurations in terraform. As a result we've got simple web app with load balancer which is connected to the MIG as a backend service. Refreshing this web-page we can see that IP address is changing, which admit that backend instances act well.
+
+<p align="center"> <img src="img/img1.png" alt="IMG" width="70%"> </p>
