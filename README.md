@@ -42,7 +42,10 @@ FOr terraform infra:
 
 For Spring petclinic app:
 
-- Created enviornment (production) before for approve jobs in pipeline.
+- Created enviornment (production) before for approve jobs in pipeline
+        - Added protection rule for waiting untill I approve it
+
+- It was artifact registry created manually: cp-artifact-registry-bm
 
 ## First tests
 
