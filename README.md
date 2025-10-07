@@ -47,8 +47,12 @@ For Spring petclinic app:
 
 - It was artifact registry created manually: cp-artifact-registry-bm
 
-## First tests
+## Architecture diagram
 
-After writing infrastructure configurations in terraform. As a result we've got simple web app with load balancer which is connected to the MIG as a backend service. Refreshing this web-page we can see that IP address is changing, which admit that backend instances act well.
+Diagram was created using tool [excalidraw.com](https://excalidraw.com/) 
 
-<p align="center"> <img src="img/img1.png" alt="IMG" width="70%"> </p>
+Digram can be view below:
+
+<p align="center">
+  <img src="img/diagram.svg" alt="Dashboard View" width="100%">
+</p>
