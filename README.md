@@ -54,7 +54,7 @@ The architecture diagram was created using [Excalidraw](https://excalidraw.com/)
 It can be viewed below:
 
 <p align="center">
-  <img src="img/diagram.svg" alt="Architecture Diagram" width="100%">
+  <img src="img/diagr.svg" alt="Architecture Diagram" width="100%">
 </p>
 
 ## Steps for Using This Project
