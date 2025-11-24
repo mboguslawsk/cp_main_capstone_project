@@ -2,8 +2,6 @@
 
 This project is a cloud-deployed version of the [Spring PetClinic Sample Application](https://github.com/spring-projects/spring-petclinic), featuring full CI/CD, infrastructure automation, and monitoring.
 
-This repo is part of the Capstone Project, which can be accessed via the [link](https://github.com/mboguslawsk/cp_main_capstone_project). 
-
 ## Project Components
 
 * **Main Project Page**: [cp_main_capstone_project](https://github.com/mboguslawsk/cp_main_capstone_project)
